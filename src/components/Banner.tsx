@@ -11,24 +11,15 @@ const Banner = (props: any) => {
           src="https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
         />
       </figure>
-      <h1 className="font-bold text-6xl z-10 tracking-wider">
+      <h1 className="font-bold text-center text-4xl lg:text-6xl z-10 tracking-wider">
         Welcome to Sneaker Vault
       </h1>
-      <h2 className="z-10 mt-10 font-semibold text-2xl">
+      <h2 className=" text-center z-10 mt-10 font-semibold text-xl lg:text-2xl">
         One stop shop for all Collectors and Sneakerheads
       </h2>
-      <Button
-        variant="contained"
-        sx={{
-          fontSize: 20,
-          marginTop: "50px",
-          paddingY: "8px",
-          zIndex: "10",
-          backgroundColor: "#fff",
-        }}
-      >
-        Browse Now
-      </Button>
+      <button className=" z-10 bg-blue-600 text-bold text-white text-lg py-1.5 px-4 rounded-md mt-5 hover:opacity-80 active:opacity-100">
+        Browse Collection
+      </button>
     </div>
   );
 };

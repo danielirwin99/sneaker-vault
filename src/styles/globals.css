@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 @layer components {
-    .navBar__headers {
-        @apply text-xl font-bold cursor-pointer hover:opacity-30 text-black
-    }
-}
+  .navBar__headers {
+    @apply text-lg lg:text-xl font-bold cursor-pointer hover:opacity-30 text-black;
+  }
+  .loadMore {
+    @apply bg-blue-600/80 text-bold text-white text-lg w-40 py-2 px-3 rounded-xl mt-5 hover:opacity-80 active:opacity-100;
+  }
 
+  .container {
+    @apply max-w-5xl mx-auto
+  }
+}

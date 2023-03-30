@@ -7,12 +7,12 @@ const Navbar = (props: any) => {
     <nav className="w-full h-28 bg-slate-300 flex items-center justify-between px-8">
       <div className="flex items-center justify-center space-x-5 ">
         <Link href="/">
-          <h1 className="text-black text-3xl lg:text-4xl font-bold">
+          <h1 className="text-black text-2xl mr-5 lg:mr-0 lg:text-4xl font-bold">
             Sneaker Vault
           </h1>
         </Link>
       </div>
-      <div className="flex items-center space-x-14 pt-2 transition-all duration-300 ease-in">
+      <div className="flex items-center space-x-14 pt-2 lg:mr-10 transition-all duration-300 ease-in">
         <Link href="/sellers">
           <h1 className="navBar__headers">Top Sellers</h1>
         </Link>
@@ -23,7 +23,7 @@ const Navbar = (props: any) => {
           <h1 className="navBar__headers">On Sale</h1>
         </Link>
         <Link href="/about">
-          <h1 className="navBar__headers hidden md:inline">About</h1>
+          <h1 className="navBar__headers hidden lg:inline">About</h1>
         </Link>
       </div>
       <div>

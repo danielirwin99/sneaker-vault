@@ -55,4 +55,12 @@ export const data = [
     category: "Womens",
     brand: "Nike",
   },
+  {
+    id: 8,
+    image:
+      "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/056/197/original/1052044_01.jpg.jpeg?action=crop&width=950",
+    name: "Wmns Air Jordan 1 Low 'Ice Blue'",
+    category: "Womens",
+    brand: "Nike",
+  },
 ];
