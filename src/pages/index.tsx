@@ -1,11 +1,8 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
-import Banner from "@/components/Banner";
-import Navbar from "@/components/Navbar";
-import NewArrivals from "@/components/NewArrivals";
-import Authenticity from "@/components/Authenticity";
-
-const inter = Inter({ subsets: ["latin"] });
+import Banner from "@/components/Home/Banner";
+import NewArrivals from "@/components/Home/NewArrivals";
+import Authenticity from "@/components/Home/Authenticity";
+import MonthlyDeal from "@/components/Home/MonthlyDeal";
 
 export default function Home() {
   return (
@@ -20,6 +17,7 @@ export default function Home() {
         <Banner />
         <NewArrivals />
         <Authenticity />
+        <MonthlyDeal />
       </main>
     </>
   );

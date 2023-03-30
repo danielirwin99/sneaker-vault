@@ -4,10 +4,10 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Navbar = (props: any) => {
   return (
-    <nav className="w-full h-28 bg-slate-300 flex items-center justify-between px-8">
+    <nav className="w-full h-28 bg-[#111] flex items-center justify-between px-8">
       <div className="flex items-center justify-center space-x-5 ">
         <Link href="/">
-          <h1 className="text-black text-2xl mr-5 lg:mr-0 lg:text-4xl font-bold">
+          <h1 className="text-white text-2xl mr-5 lg:mr-0 lg:text-4xl font-bold">
             Sneaker Vault
           </h1>
         </Link>
@@ -30,12 +30,12 @@ const Navbar = (props: any) => {
         <ul className="flex space-x-6">
           <li className="hidden md:inline">
             <button>
-              <AiOutlineSearch className="h-8 w-8 text-black" />
+              <AiOutlineSearch className="h-8 w-8 text-white" />
             </button>
           </li>
           <li>
             <Link href="/cart">
-              <BiShoppingBag className="h-8 w-8 text-black" />
+              <BiShoppingBag className="h-8 w-8 text-white" />
             </Link>
           </li>
         </ul>

@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import axios from "axios";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { data } from "../request/data";
+import { data } from "../../request/data";
 
 const NewArrivals = () => {
   const [sneakers, setSneakers] = useState([]);

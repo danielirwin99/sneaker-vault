@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-100
+  }
+}
+
 @layer components {
   .navBar__headers {
-    @apply text-lg lg:text-xl font-bold cursor-pointer hover:opacity-30 text-black;
+    @apply text-lg lg:text-xl font-bold cursor-pointer hover:opacity-30 text-white;
   }
   .loadMore {
-    @apply bg-blue-600/80 text-bold text-white text-lg w-40 py-2 px-3 rounded-xl mt-5 hover:opacity-80 active:opacity-100;
+    @apply bg-blue-600/80 font-bold text-white text-lg w-40 py-2 px-3 rounded-xl mt-5 hover:opacity-80 active:opacity-100;
   }
 
   .container {

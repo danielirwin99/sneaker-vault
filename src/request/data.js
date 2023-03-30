@@ -63,4 +63,12 @@ export const data = [
     category: "Womens",
     brand: "Nike",
   },
-];
+  {
+    id: 9,
+    image:
+      "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/080/953/403/original/1004215_01.jpg.jpeg?action=crop&width=950",
+    name: "Nike SB Dunkw Low 'Orange Lobster'",
+    category: "Mens",
+    brand: "Nike",
+  },
+]
