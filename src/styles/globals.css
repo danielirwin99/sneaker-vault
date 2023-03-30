@@ -4,6 +4,7 @@
 
 @layer components {
     .navBar__headers {
-        @apply text-xl font-bold cursor-pointer hover:opacity-30
+        @apply text-xl font-bold cursor-pointer hover:opacity-30 text-black
     }
 }
+
