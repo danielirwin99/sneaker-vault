@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Banner = (props: any) => {
   return (
-    <div className="h-80 bg-slate-200 w-full relative flex flex-col items-center justify-center">
-      <figure className="w-full h-80 absolute -z-1">
+    <div className="h-[60vh] bg-slate-200 w-full relative flex flex-col items-center justify-center">
+      <figure className="w-full h-[60vh] absolute -z-1">
         <img
           className="h-full w-full object-cover opacity-60"
           alt="Background Shoe"
@@ -17,7 +17,7 @@ const Banner = (props: any) => {
       <h2 className=" text-center z-10 mt-10 font-semibold text-xl lg:text-2xl">
         One stop shop for all Collectors and Sneakerheads
       </h2>
-      <button className=" z-10 bg-blue-600 text-bold text-white text-lg py-1.5 px-4 rounded-md mt-5 hover:opacity-80 active:opacity-100">
+      <button className=" z-10 bg-blue-600 text-bold text-white text-lg py-1.5 px-4 rounded-md mt-[50px] hover:opacity-80 active:opacity-100">
         Browse Collection
       </button>
     </div>

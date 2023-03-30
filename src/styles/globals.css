@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-100
+    @apply bg-gray-100;
   }
 }
 
@@ -17,6 +17,18 @@
   }
 
   .container {
-    @apply max-w-5xl mx-auto
+    @apply max-w-5xl mx-auto;
+  }
+
+  .footerLink {
+    @apply font-semibold text-sm py-2 px-5 text-white hover:underline cursor-not-allowed;
+  }
+
+  .footerHeader {
+    @apply text-lg font-bold underline text-white px-5;
+  }
+
+  .footerSocial {
+    @apply text-white py-2 text-xl cursor-not-allowed hover:scale-110 transition-all duration-150;
   }
 }
