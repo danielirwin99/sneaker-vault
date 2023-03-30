@@ -50,7 +50,7 @@ const MonthlyDeal = () => {
             <button className="py-2 px-4 rounded-sm bg-black text-white tracking-[0.15rem] font-bold w-[47.5%] mt-2 hover:opacity-70 ">
               BUY NOW
             </button>
-            <h2 className="mt-3">More payment options</h2>
+            <h2 className="mt-3 border-b border-black cursor-not-allowed ">More payment options</h2>
           </div>
         </div>
       </div>
