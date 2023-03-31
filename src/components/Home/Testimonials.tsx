@@ -36,7 +36,7 @@ const Testimonials = ({ data }: any) => {
             <p className="text-lg font-semibold">JR</p>
           </div>
           <div>
-            <h1 className="mt-3">Jasmin Rice.</h1>
+            <h1 className="mt-3">Jasmine Rice.</h1>
             <p className="text-xs my-2 font-light">3/5/2023</p>
             <p className="text-sm font-semibold mb-2">
               "10/10 would recommend to anyone"

@@ -20,8 +20,8 @@ const Navbar = (props: any) => {
           </h1>
         </Link>
       </div>
-      <div className="flex ] items-center space-x-14 pt-2 lg:mr-10 transition-all duration-300 ease-in">
-        <Link href="/sellers">
+      <div className="flex items-center space-x-14 pt-1 lg:mr-10 ml-14 lg:ml-0 transition-all duration-300 ease-in">
+        <Link href="/TopSellers">
           <h1 className="navBar__headers">Top Sellers</h1>
         </Link>
         <Link href="/arrivals">
