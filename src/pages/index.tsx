@@ -3,6 +3,8 @@ import Banner from "@/components/Home/Banner";
 import NewArrivals from "@/components/Home/NewArrivals";
 import Authenticity from "@/components/Home/Authenticity";
 import MonthlyDeal from "@/components/Home/MonthlyDeal";
+import Testimonials from "@/components/Home/Testimonials";
+import { data } from "../request/data";
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
         <NewArrivals />
         <Authenticity />
         <MonthlyDeal />
+        <Testimonials data={data} />
       </main>
     </>
   );

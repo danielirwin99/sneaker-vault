@@ -1,10 +1,12 @@
 import Link from "next/link";
+import react from "react";
 import { BiShoppingBag } from "react-icons/bi";
 import { AiOutlineSearch } from "react-icons/ai";
+import { useState, useEffect } from "react";
 
 const Navbar = (props: any) => {
   return (
-    <nav className="w-full h-28 bg-[#111] flex items-center justify-between px-8">
+    <nav className="sticky z-[999] top-0 w-full h-24 bg-[#111] flex items-center justify-between px-8">
       <div className="flex items-center justify-center space-x-5 ">
         <Link href="/">
           <h1 className="text-white text-2xl mr-5 lg:mr-0 lg:text-4xl font-bold">
@@ -12,7 +14,7 @@ const Navbar = (props: any) => {
           </h1>
         </Link>
       </div>
-      <div className="flex items-center space-x-14 pt-2 lg:mr-10 transition-all duration-300 ease-in">
+      <div className="flex ] items-center space-x-14 pt-2 lg:mr-10 transition-all duration-300 ease-in">
         <Link href="/sellers">
           <h1 className="navBar__headers">Top Sellers</h1>
         </Link>
