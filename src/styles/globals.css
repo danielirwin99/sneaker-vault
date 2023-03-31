@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-100;
+    @apply bg-gray-50;
   }
 }
 
@@ -30,5 +30,25 @@
 
   .footerSocial {
     @apply text-white py-2 text-xl cursor-not-allowed hover:scale-110 transition-all duration-150;
+  }
+
+  .testContainer {
+    @apply flex justify-center text-center items-center my-20 ;
+  }
+
+  .testBox {
+    @apply flex flex-col items-center justify-center md:p-5 h-full max-h-[500px] w-1/2 lg:w-[calc(100%/3)]
+  }
+
+  /* .testSneakerContainer {
+    @apply ;
+  } */
+
+  .testSneaker {
+    @apply h-[350px] rounded-sm object-cover;
+  }
+
+  .testInitials {
+    @apply flex items-center mt-[-40px] justify-center h-12 w-12 py-2 bg-gray-300 rounded-[50%]
   }
 }
