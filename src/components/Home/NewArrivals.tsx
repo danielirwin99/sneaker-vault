@@ -16,7 +16,7 @@ const NewArrivals = () => {
       </h1>
       <div className="mt-10 flex flex-col items-center">
         <ul className="grid grid-cols-2 lg:grid-cols-4 mx-8 gap-5">
-          {data.map((sneaker) => (
+          {data.slice(0, 8).map((sneaker) => (
             <li className="flex flex-col text-center mx-5" key={sneaker.id}>
               <Link href={`/sneaker/${sneaker.id}`}>
                 <h1 className="my-5 font-bold text-lg text-start lg:text-center h-10">
