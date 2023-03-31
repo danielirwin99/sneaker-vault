@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="flex flex-col justify-center items-center w-[80vw]">
         <figure className="h-12 w-12">
           <img
-            className="w-full"
-            src="https://cdn.logojoy.com/wp-content/uploads/2018/12/14162408/ic_bc.svg"
+            className="w-full rounded-3xl"
+            src="https://scontent.fsyd8-1.fna.fbcdn.net/v/t39.30808-6/300376092_613162083844217_4766963332407012283_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=61B5ok25iR0AX-FaJCx&_nc_ht=scontent.fsyd8-1.fna&oh=00_AfAbuC3YlUteqMjrZuW5Xz8jzjH8TPR3DQRU3_Vmya70mg&oe=642A2D35"
             alt="LOGO"
           />
         </figure>

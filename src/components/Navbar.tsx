@@ -6,10 +6,16 @@ import { useState, useEffect } from "react";
 
 const Navbar = (props: any) => {
   return (
-    <nav className="sticky z-[999] top-0 w-full h-24 bg-[#111] flex items-center justify-between px-8">
+    <nav className="sticky z-[999] top-0 w-full h-20 bg-[#111] flex items-center justify-between px-8">
       <div className="flex items-center justify-center space-x-5 ">
-        <Link href="/">
-          <h1 className="text-white text-2xl mr-5 lg:mr-0 lg:text-4xl font-bold">
+        <Link className="flex items-center justify-center" href="/">
+          <figure className="lg:hidden w-[70px] h-14 ">
+            <img className="w-full h-full rounded-3xl"
+              src="https://scontent.fsyd8-1.fna.fbcdn.net/v/t39.30808-6/300376092_613162083844217_4766963332407012283_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=61B5ok25iR0AX-FaJCx&_nc_ht=scontent.fsyd8-1.fna&oh=00_AfAbuC3YlUteqMjrZuW5Xz8jzjH8TPR3DQRU3_Vmya70mg&oe=642A2D35"
+              alt=""
+            />
+          </figure>
+          <h1 className="text-white hidden lg:block text-2xl mr-5 lg:mr-0 lg:text-4xl font-bold">
             Sneaker Vault
           </h1>
         </Link>
