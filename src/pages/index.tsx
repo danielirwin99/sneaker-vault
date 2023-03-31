@@ -20,7 +20,7 @@ export default function Home() {
         <NewArrivals />
         <Authenticity />
         <MonthlyDeal />
-        <Testimonials data={data} />
+        {/* <Testimonials data={data} /> */}
       </main>
     </>
   );
